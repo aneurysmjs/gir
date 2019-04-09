@@ -1,9 +1,9 @@
 
-import { compose } from './compose/mod';
-import { curry } from './curry/mod';
-import { for_each } from './for_each/mod';
-import { pipe } from './pipe/mod';
-import { reverse } from './reverse/mod';
+import { compose } from './compose/mod.ts';
+import { curry } from './curry/mod.ts';
+import { for_each } from './for_each/mod.ts';
+import { pipe } from './pipe/mod.ts';
+import { reverse } from './reverse/mod.ts';
 
 export {
   compose,

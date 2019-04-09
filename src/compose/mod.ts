@@ -1,1 +1,1 @@
-export { default as compose } from './compose';
+export { default as compose } from './compose.ts';

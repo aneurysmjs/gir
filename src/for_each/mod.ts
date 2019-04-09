@@ -1,2 +1,2 @@
 
-export { default as for_each } from './for_each';
+export { default as for_each } from './for_each.ts';
