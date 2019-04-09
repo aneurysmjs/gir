@@ -1,8 +1,8 @@
-import { forEach } from '../for_each/mod.ts';
+import { for_each } from '../for_each/mod.ts';
 
 const pipe = (...fns: Array<Function>) => (arg: any) => {
   let copiedArg = arg;
-  forEach((fn: Function) => {
+  for_each((fn: Function) => {
     copiedArg = fn(copiedArg);
   }, fns);
   return copiedArg;
